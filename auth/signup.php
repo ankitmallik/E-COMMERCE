@@ -13,6 +13,12 @@
 
     <div class="container">
         <form action="signupAuth.php" method="post">
+
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Name</label>
+                <input type="text" name="name" placeholder="Enter Your name" class="form-control" id="exampleInputPassword1">
+            </div>
+
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Email address</label>
                 <input type="email" name="email" class="form-control" placeholder="Enter Your Email" id="exampleInputEmail1" aria-describedby="emailHelp">
